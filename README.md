@@ -1,5 +1,6 @@
-# Gerenciamento de versões com Git
+# [PETComp] Gerenciamento de versões com Git
 Este curso basea-se no curso “Learn Git in 3 Hours” por Ross Conyers.
+https://github.com/SlzPedroArthur/PetComp-git
 
 
 ![Git Illustration](https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/04/Como-Usar-Um-Git-Branch.png)
@@ -7,16 +8,16 @@ Este curso basea-se no curso “Learn Git in 3 Hours” por Ross Conyers.
 # 0. O que vamos aprender?
 ![Resultado de imagem para summary illustration](https://img.freepik.com/free-vector/notes-concept-illustration_114360-689.jpg?size=338&ext=jpg)
 
-1. [Controle de versão:]
-    1. Panorama do Curso;
+1. Controle de versão:
+[](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=990555315340698927896613&h2=1.-Controle-de-Vers%C3%A3o)    1. Panorama do Curso;
     2. Versão de Controle;
-2. [O Terminal:]
-    1. Instalando e Configurando o Git;
+2. O Terminal:
+[](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=990555315340698927896613&h2=1.-Controle-de-Vers%C3%A3o)    1. Instalando e Configurando o Git;
     2. Introdução ao Terminal;
     3. Comandos básicos;
     4. Usando VI como editor;
-3. [Aprendendo o básico:]
-    1. Configurando e inicializando um repositório;
+3. Aprendendo o básico:
+[](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=416672180182243193901392&h2=3.-Aprendendo-o-b%C3%A1sico)    1. Configurando e inicializando um repositório;
     2. Rastreando Arquivos;
     3. Visualizando mudanças;
     4. Commit
@@ -26,21 +27,22 @@ Este curso basea-se no curso “Learn Git in 3 Hours” por Ross Conyers.
     8. Clonando um repositório;
     9. Usando repositórios remotos;
     10. Tags
-4. [Branches e Workflow:]
-    1. O que é uma brach?
+4. Branches:
+[](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=175946464537728044108229&h2=4.-Branches-e-Workflow:)    1. O que é uma brach?
     2. Criando novas branches;
     3. Merge;
     4. Resolvendo conflitos;
     5. Branches remotas;
-5. [Workflow avançado:]
-    1. GitHub;
+5. Workflow:
+[](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=420462459154843077702432&h2=5.-Workflow-avan%C3%A7ado:)    1. GitHub;
     2. Fork;
     3. Commits;
     4. Merge Request;
     5. Customizando comandos;
-6. [Projeto]
-7. [Git com Visual Studio e Git Kraken;]
-# 1. Controle de Versão
+6. Projeto;
+7. Git com Visual Studio e Git Kraken;
+8. Saiba Mais.
+[](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=263256488206729706351850&h2=6.-Git-com-Visual-Studio-e-Git)# 1. Controle de Versão
 ## O que é um sistema de controle de versão?
 - Um sistema que grava a mudanças de arquivos, salvando qualquer informação extra como data, autoria e possíveis mensagens explicando a mudança.
 - Qualquer tipo de arquivo pode ter esse rastreamento, porém ele é mais comumente utilizado para projetos de desenvolvimento.
@@ -53,6 +55,8 @@ Este curso basea-se no curso “Learn Git in 3 Hours” por Ross Conyers.
 - Git é um dos sistemas mais utilizados tanto em projetos open source quanto em grandes empresas. Além disso, disponibiliza suporte da comunidade e um grande número de recursos.
 - Simples, rápido e permite desenvolvimento não linear;
 - Ele foi desenvolvido pela comunidade Linux em conjunto com Linus Torvalds;
+![https://dl.acm.org/doi/abs/10.5555/2020786.2020790](https://paper-attachments.dropbox.com/s_7B61B673B06C834F7D0D329CC4B613524EA1268C810743F1BE2663C2ABF4D355_1585127325793_Screen+Shot+2020-03-25+at+06.08.12.png)
+
 ## Principais características
 - Armazenamento: as mudança são guardadas instantaneamente. Diferente de outros sistemas que salvam as informações continuamente. Os arquivos modificados serão salvos de imediato, aqueles sem alteração terão um link salvo apontando para a versão anterior. Assim, o Git funciona como um pequeno sistema de arquivos com ponteiros - em camadas.
 - Branches: possibilita desenvolvimento não linear. Permite também que os membros de uma equipe trabalhem de forma independente em qualquer parte do projeto.
@@ -807,7 +811,7 @@ Isso pode tornar-se um pouco trabalhoso caso nós criemos muitas tags. Para isso
 
 ![](https://paper-attachments.dropbox.com/s_7B61B673B06C834F7D0D329CC4B613524EA1268C810743F1BE2663C2ABF4D355_1585104063198_Screen+Shot+2020-03-24+at+23.40.01.png)
 
-# 4. Branches e Workflow
+# 4. Branches
 ## O que é uma Branch?
 ![](https://paper-attachments.dropbox.com/s_7B61B673B06C834F7D0D329CC4B613524EA1268C810743F1BE2663C2ABF4D355_1585111372490_file.png)
 
@@ -1223,7 +1227,7 @@ Você pode ver que temos apenas uma linha reta de histórico. Agora para levarmo
     * 0964a2d master
     *   1deee07 Merge branch 'develop'
     |\  
-# 5. Workflow avançado
+# 5. Workflow
 ## GitHub
 ![Resultado de imagem para github illustration](https://i.pinimg.com/originals/bd/51/9a/bd519a06826b9043b8b6edd9e167123a.jpg)
 
@@ -1342,5 +1346,23 @@ Podemos customizar os comandos, adaptando-os ao nosso ambiente de trabalho. Para
 Isso pode ser útil para tornar alguns comandos mais curtos.
 
 # 6. Projeto
+
+Para a implementação do projeto final, usaremos como base o seguinte [workflow](https://nvie.com/files/Git-branching-model.pdf).
+
+O projeto é usar os [arquivos deste template web](https://drive.google.com/open?id=1Zf3Je4h6qohR2nzhMd5sMC3oTALW5bWt) e adicionar à ele um header, um footer e uma seção de compras. Para isso, os participantes deverão se dividir em três equipes e as três deverão utilizar o modelo de branches acima. Depois de baixar os arquivos, um repositório remoto deverá ser criado com os arquivos no GitHub e os integrantes de cada equipe deverão ser adicionados como colaboradores. Não será necessário layout muito sofisticados, o objetivo do curso não é esse. 
+
+Atenção! Fique atento ao instrutor. Bugs podem ser encontrados durante o desenvolvimento!
+
+Bom trabalho!
+
 # 7. Quer GUI? Pois tome: Git com Visual Studio e Git Kraken
+
+
+# 8. Saiba Mais
+
+
+https://github.com/SlzPedroArthur/PetComp-git
+
+
+[+[PETComp] Gerenciamento de versões com Git](https://paper.dropbox.com/doc/PETComp-Gerenciamento-de-versoes-com-Git-bTgJsXW85jvcl25DyANBz) 
 
