@@ -7,15 +7,15 @@ Este curso basea-se pelo livro “Learn Git in 3 Hours” por Ross Conyers.
 # 0. O que vamos aprender?
 ![Resultado de imagem para summary illustration](https://img.freepik.com/free-vector/notes-concept-illustration_114360-689.jpg?size=338&ext=jpg)
 
-1. [Controle de versão:](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=990555315340698927896613&h2=1.-Controle-de-Vers%C3%A3o)
+1. [Controle de versão:]
     1. Panorama do Curso;
     2. Versão de Controle;
-2. [O Terminal:](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=990555315340698927896613&h2=1.-Controle-de-Vers%C3%A3o)
+2. [O Terminal:]
     1. Instalando e Configurando o Git;
     2. Introdução ao Terminal;
     3. Comandos básicos;
     4. Usando VI como editor;
-3. [Aprendendo o básico:](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=416672180182243193901392&h2=3.-Aprendendo-o-b%C3%A1sico)
+3. [Aprendendo o básico:]
     1. Configurando e inicializando um repositório;
     2. Rastreando Arquivos;
     3. Visualizando mudanças;
@@ -26,20 +26,20 @@ Este curso basea-se pelo livro “Learn Git in 3 Hours” por Ross Conyers.
     8. Clonando um repositório;
     9. Usando repositórios remotos;
     10. Tags
-4. [Branches e Workflow:](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=175946464537728044108229&h2=4.-Branches-e-Workflow:)
+4. [Branches e Workflow:]
     1. O que é uma brach?
     2. Criando novas branches;
     3. Merge;
     4. Resolvendo conflitos;
     5. Branches remotas;
-5. [Workflow avançado:](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=420462459154843077702432&h2=5.-Workflow-avan%C3%A7ado:)
+5. [Workflow avançado:]
     1. GitHub;
     2. Fork;
     3. Commits;
     4. Merge Request;
     5. Customizando comandos;
-6. [Projeto](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=984471104778588096735480&h2=7.-Projeto)
-7. [Git com Visual Studio e Git Kraken;](https://www.dropbox.com/scl/fi/2yd54toy785yjkc92ldbm/Gerenciamento-de-vers-es-com-Git.paper?dl=0&rlkey=heqpy520owvbw3yot1libwyjv#:uid=263256488206729706351850&h2=6.-Git-com-Visual-Studio-e-Git)
+6. [Projeto]
+7. [Git com Visual Studio e Git Kraken;]
 # 1. Controle de Versão
 ## O que é um sistema de controle de versão?
 - Um sistema que grava a mudanças de arquivos, salvando qualquer informação extra como data, autoria e possíveis mensagens explicando a mudança.
