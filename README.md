@@ -1,5 +1,5 @@
 # Gerenciamento de versões com Git
-Este curso basea-se pelo livro “Learn Git in 3 Hours” por Ross Conyers.
+Este curso basea-se no curso “Learn Git in 3 Hours” por Ross Conyers.
 
 
 ![Git Illustration](https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/04/Como-Usar-Um-Git-Branch.png)
